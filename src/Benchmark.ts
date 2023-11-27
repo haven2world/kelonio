@@ -1,7 +1,7 @@
 import { EventEmitter } from "eventemitter3";
-import { FOOTER, HEADER } from "./etc";
-import { MeasureOptions, Measurement, defaultMeasureOptions, measure, verifyMeasurement } from "./measure";
 import * as mathjs from "mathjs";
+import { FOOTER, HEADER } from "./etc";
+import { defaultMeasureOptions, measure, Measurement, MeasureOptions, verifyMeasurement } from "./measure";
 
 export declare interface BenchmarkEventEmitter {
     emit(
